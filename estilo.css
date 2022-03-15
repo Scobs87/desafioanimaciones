@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: aqua;
+  margin: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.caja {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+.azul {
+  background-color: blue;
+}
+
+.rojo {
+  background-color: red;
+}
+
+.amarillo {
+  background-color: yellow;
+}
+
+.verde {
+  background-color: green;
+}
+
+.fucsia {
+  background-color: fuchsia;
+}
+
+.gris {
+  background-color: gray;
+}
+
+.lima {
+  background-color: lime;
+}
+
+.violeta {
+  background-color: purple;
+}
+
+.aqua {
+  background-color: rgb(2, 231, 231);
+}
+
+footer {
+  margin: 20px;
+  height: 100px;
+  background: linear-gradient(70deg, orange, brown, green);
+}
